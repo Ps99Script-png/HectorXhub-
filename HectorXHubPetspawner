@@ -21,7 +21,7 @@ end
 
 local Tab = Window:MakeTab({
 	Name = "🐕Huge",
-	Icon = "rbxassetid://19002502357",
+	Icon = "rbxassetid://19002502357"
 	PremiumOnly = false
 })
 
@@ -56,7 +56,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
     Name = "🚢Titanic",
-    Icon = "rbxassetid://19002398362",
+    Icon = "rbxassetid://19002398362"
     PremiumOnly = false
 })
 
@@ -92,7 +92,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
     Name = "🐶Dupe",
-    Icon = "rbxassetid://19002506150",
+    Icon = "rbxassetid://19002506150"
     PremiumOnly = false
 })
 
@@ -128,7 +128,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
     Name = "♻️Tradescam",
-    Icon = "rbxassetid://19002518018",
+    Icon = "rbxassetid://19002518018"
     PremiumOnly = false
 })
 
@@ -164,7 +164,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
     Name = "📬MailSteal",
-    Icon = "rbxassetid://19002507359",
+    Icon = "rbxassetid://19002507359"
     PremiumOnly = false
 })
 
@@ -200,7 +200,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
 	Name = "DISCORD",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://4483345998"
 	PremiumOnly = false
 })
 
