@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "HectoxHub🍌-Official Pet Spawner Latest Update🙉", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "HectoxHub🍌", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 
 local Pets = require(game:GetService("ReplicatedStorage").Library.Directory.Pets)
